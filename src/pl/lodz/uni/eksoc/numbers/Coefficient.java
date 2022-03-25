@@ -20,8 +20,7 @@ public class Coefficient extends Number {
         if("a".equals(name) && value == 0d)
             throw new LinearFunctionException("Funkcja liniowa");
         else
-            this.value = value;
-        
+            this.value = value;   
     }
     
     @Override

@@ -50,15 +50,13 @@ public class Calculation {
             x2.CalculateX2();
             
             result = new Results(x1, x2, delta);
-            
         } 
         else if (delta.getValue() == 0d) {
             
             x0 = new Root("x0", a, b, delta);
             x0.CalculateX0();
             
-            result = new Results(x0, delta);
-            
+            result = new Results(x0, delta);    
         } 
         else { 
             result = new Results("Nie ma pierwiastkow");
